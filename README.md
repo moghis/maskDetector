@@ -1,18 +1,16 @@
-# YOLOv5 NCNN Implementation
+# yolov4 tiny for mask detection
 
-This repo provides C++ implementation of [YOLOv5 model](https://github.com/ultralytics/yolov5) using
-Tencent's NCNN framework.
+in this repo I used yolov4 for mask detector
 
-# Notes
+# Final Result
 
-Currently NCNN does not support Slice operations with steps, therefore I removed the Slice operation
-and replaced the input with a downscaled image and stacked it to match the channel number. This
-may slightly reduce the accuracy.
+![Alt text](./readmeResource/pic1.jpg?raw=true "Title")
+![Alt text](./readmeResource/pic2.jpg?raw=true "Title")
+![Alt text](./readmeResource/pic3.jpg?raw=true "Title")
+![Alt text](./readmeResource/pic4.jpg?raw=true "Title")
 
 # Credits 
 
-* [YOLOv5 by Ultralytics](https://github.com/ultralytics/yolov5) 
-* [NCNN by Tencent](https://github.com/tencent/ncnn)
-
-仅供学习。
-"# maskDetector" 
+* [YOLOv4 by AlexeyAB](https://github.com/AlexeyAB/darknet)
+* [NCNN by WZTENG](https://github.com/WZTENG/YOLOv5_NCNN)
+* [YOLOv4 with NCNN by AlexeyAB](https://github.com/AlexeyAB/darknet)
