@@ -6,6 +6,7 @@ in this repo I used yolov4 for mask detector
 
 ![Alt text](./readmeResource/pic1.jpg?raw=true "Title") ![Alt text](./readmeResource/pic2.jpg?raw=true "Title")
 ![Alt text](./readmeResource/pic3.jpg?raw=true "Title") ![Alt text](./readmeResource/pic4.jpg?raw=true "Title")
+![Alt text](./readmeResource/final.gif?raw=true "Title")
 
 # Credits 
 
