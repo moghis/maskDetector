@@ -4,10 +4,10 @@ in this repo I used yolov4 for mask detector
 
 # Final Result
 
-<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic1.jpg" width="50%" height="50%">
-<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic2.jpg" width="50%" height="50%">
-<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic3.jpg" width="50%" height="50%">
-<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic4.jpg" width="50%" height="50%">
+<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic1.jpg" width="200" height="200">
+<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic2.jpg" width="200" height="200">
+<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic3.jpg" width="200" height="200">
+<img src="https://github.com/moghis/maskDetector/edit/master/readmeResource/pic4.jpg" width="200" height="200">
 
 # Credits 
 
