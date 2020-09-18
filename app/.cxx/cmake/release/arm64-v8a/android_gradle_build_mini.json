@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "F:\\sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "F:\\sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov4-Release-arm64-v8a": {
+      "artifactName": "yolov4",
+      "buildCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\.cxx\\cmake\\release\\arm64-v8a\" yolov4",
+      "abi": "arm64-v8a",
+      "output": "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libyolov4.so",
+      "runtimeFiles": [
+        "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\src\\main\\cpp\\ncnnvulkan\\arm64-v8a\\libncnn.a",
+        "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\src\\main\\cpp\\ncnnvulkan\\arm64-v8a\\libglslang.a",
+        "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\src\\main\\cpp\\ncnnvulkan\\arm64-v8a\\libSPIRV.a",
+        "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\src\\main\\cpp\\ncnnvulkan\\arm64-v8a\\libOGLCompiler.a",
+        "E:\\dev\\term 9\\project\\android_yolov4_tiny\\app\\src\\main\\cpp\\ncnnvulkan\\arm64-v8a\\libOSDependent.a"
+      ]
+    }
+  }
+}

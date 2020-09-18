@@ -1,0 +1,3 @@
+E:/dev/term 9/project/android_yolov4_tiny/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/yolov4.dir
+E:/dev/term 9/project/android_yolov4_tiny/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/dev/term 9/project/android_yolov4_tiny/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

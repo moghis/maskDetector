@@ -1,0 +1,7 @@
+Executable : F:\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\dev\term 9\project\android_yolov4_tiny\app\.cxx\cmake\debug\armeabi-v7a
+yolov4
+jvmArgs : 
+

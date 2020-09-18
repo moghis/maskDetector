@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@id/resultImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/infoImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:contentDescription="@string/info_image_description"
+            android:padding="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_info" />
+
+        <ImageView
+            android:id="@+id/exitImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:contentDescription="@string/exit_image_description"
+            android:padding="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_exit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/resultImg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/result_image_description"
+        app:layout_constraintBottom_toTopOf="@id/rateDetectSeekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <TextView
+        android:id="@+id/resultImgInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_image_info_text_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_large"
+        app:layout_constraintBottom_toBottomOf="@+id/resultImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/resultImg" />
+
+    <SeekBar
+        android:id="@+id/rateDetectSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:max="500"
+        android:progress="250"
+        app:layout_constraintBottom_toTopOf="@id/CameraDetectBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rateDetectTextView"
+        app:layout_constraintTop_toBottomOf="@+id/resultImg" />
+
+    <TextView
+        android:id="@+id/rateDetectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:text="@string/rate_detection_text_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintBottom_toTopOf="@id/CameraDetectBtn"
+        app:layout_constraintEnd_toStartOf="@+id/rateDetectSeekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resultImg" />
+
+    <Button
+        android:id="@+id/galleryDetectBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:background="@drawable/selector_btn"
+        android:text="@string/gallery_detection_btn_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintBottom_toTopOf="@id/takePicBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/CameraDetectBtn"
+        app:layout_constraintTop_toBottomOf="@id/rateDetectSeekBar" />
+
+    <Button
+        android:id="@+id/CameraDetectBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:background="@drawable/selector_btn"
+        android:text="@string/camera_detection_btn_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintBottom_toTopOf="@id/takePicBtn"
+        app:layout_constraintEnd_toStartOf="@id/galleryDetectBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rateDetectSeekBar" />
+
+    <Button
+        android:id="@+id/takePicBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:background="@drawable/selector_take_pic_btn"
+        android:text="@string/take_pic_btn_text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/CameraDetectBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

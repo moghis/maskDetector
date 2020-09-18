@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\dev\term 9\project\android_yolov4_tiny\app\.cxx\cmake\release\arm64-v8a'
+ninja: no work to do.

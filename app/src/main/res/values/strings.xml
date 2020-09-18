@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mask detector</string>
+    <string name="gallery_detection_btn_name">گالری</string>
+    <string name="camera_detection_btn_name">دوربین جلو</string>
+    <string name="rate_detection_text_name">سرعت</string>
+    <string name="take_pic_btn_text">عکس</string>
+    <string name="result_image_description">it is showing result of neural network</string>
+    <string name="result_image_info_text_name">برای نمایش ، گالری و یا دوربین را انتخاب کنید....</string>
+    <string name="info_image_description">information picture</string>
+    <string name="exit_image_description">exit picture</string>
+    <string name="ok_btn_name">باشه</string>
+    <string name="info_text">این اپلیکیشن با استفاده از پردازش تصویر افرادی که ماسک زده اند و یا ماسک بد زده اند و یا ماسک کلا نزده اند را تشخیص می دهد. امکان فیلم برداری از هر دو دوربین و پردازش هم زمان وجود دارد همچنین هنگامی که دوربین فعال است می توان عکس گرفت و در گالری ذخیره کرد و همچنین این قابلیت وجود دارد که بر روی عکس های گالری نیز پردازش انجام شود علاوه بر این شما می توانید سرعت پردازش هنگام فیلمبرداری را تعیین کنید.</string>
+    <string name="exit_text_name">آيا از خروج مطمئن هستيد؟</string>
+    <string name="stay_btn_name">خیر ، می مانم</string>
+    <string name="exit_btn_name">بله ، خروج</string>
+</resources>

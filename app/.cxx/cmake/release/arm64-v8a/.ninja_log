@@ -1,0 +1,14 @@
+# ninja log v5
+2633	81449	621308782	CMakeFiles/yolov4.dir/YoloV4.cpp.o	10fdebbdaac9a227
+132	81497	621308782	CMakeFiles/yolov4.dir/jni_interface.cpp.o	581707d1c9f88d1c
+81497	97129	621308799	E:/dev/term 9/project/android_yolov4_tiny/app/build/intermediates/cmake/release/obj/arm64-v8a/libyolov4.so	1b48bea60cd0146c
+0	101	0	clean	a43ac86af7fdb3ec
+0	48	0	clean	a43ac86af7fdb3ec
+1	58	0	clean	a43ac86af7fdb3ec
+0	85	0	clean	a43ac86af7fdb3ec
+1	712	0	clean	a43ac86af7fdb3ec
+1	71	0	clean	a43ac86af7fdb3ec
+0	15	0	clean	a43ac86af7fdb3ec
+67	4270	621548178	CMakeFiles/yolov4.dir/jni_interface.cpp.o	581707d1c9f88d1c
+95	4466	621548178	CMakeFiles/yolov4.dir/YoloV4.cpp.o	10fdebbdaac9a227
+4467	10613	621548184	E:/dev/term 9/project/android_yolov4_tiny/app/build/intermediates/cmake/release/obj/arm64-v8a/libyolov4.so	1b48bea60cd0146c
