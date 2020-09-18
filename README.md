@@ -1,6 +1,6 @@
 # yolov4 tiny for mask detection
 
-in this repo I used yolov4 for mask detector
+in this project I implemented mask detector with using yolov4
 
 # Final Result
 
