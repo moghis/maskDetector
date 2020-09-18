@@ -4,10 +4,10 @@ in this repo I used yolov4 for mask detector
 
 # Final Result
 
-![Alt text](./readmeResource/pic1.jpg?raw=true "Title"){:height="50%" width="50%"}
-![Alt text](./readmeResource/pic2.jpg?raw=true "Title"){:height="50%" width="50%"}
-![Alt text](./readmeResource/pic3.jpg?raw=true "Title"){:height="50%" width="50%"}
-![Alt text](./readmeResource/pic4.jpg?raw=true "Title"){:height="50%" width="50%"}
+![test image size](./readmeResource/pic1.jpg){:height="50%" width="50%"}
+![test image size](./readmeResource/pic2.jpg){:height="50%" width="50%"}
+![test image size](./readmeResource/pic3.jpg){:height="50%" width="50%"}
+![test image size](./readmeResource/pic4.jpg){:height="50%" width="50%"}
 
 # Credits 
 
