@@ -1,6 +1,6 @@
 # yolov4 tiny for mask detection
 
-in this project I implemented mask detector with using yolov4
+in this project I implemented mask detector using yolov4. you can also install application from cafe bazaar : [download](https://cafebazaar.ir/app/com.moghis.yolov4)
 
 # Final Result
 
